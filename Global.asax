@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="Arachnid.Global" Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="Ostracod.Global" Language="C#" %>

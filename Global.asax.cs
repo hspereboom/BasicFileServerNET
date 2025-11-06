@@ -5,7 +5,7 @@ using System.Web.Routing;
 
 using BFS;
 
-namespace Arachnid {
+namespace Ostracod {
 
 	public class Global : HttpApplication {
 
