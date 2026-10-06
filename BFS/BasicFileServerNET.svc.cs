@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Configuration;
 using System.IO;
 using System.ServiceModel;
 using System.ServiceModel.Activation;
@@ -27,11 +26,9 @@ namespace BFS {
 	public class BasicFileServerNET : IWebFileServer {
 
 		private readonly string root;
-		private readonly string spam;
 
 		public BasicFileServerNET() {
-			root = ConfigurationManager.AppSettings["docFolder"];
-			spam = ConfigurationManager.AppSettings["logFolder"];
+			root = AppSettings.DocFolder;
 		}
 
 		/*
